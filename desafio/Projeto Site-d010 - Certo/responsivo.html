@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /* min e max width é para deixar o site responsivo de acordo com as telas */
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto; /* o margin centraliza o conteudo automatico*/
+        }
+
+        img {
+            min-width: 10%;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cumque laboriosam reiciendis id, molestias fugit porro aut, aliquam quisquam voluptates fugiat culpa quia eius provident unde architecto? Dignissimos, modi nisi.
+        Cupiditate totam et maxime enim, iste aliquid velit nostrum provident voluptatum a voluptate. Reiciendis quam reprehenderit perferendis velit magni, mollitia id necessitatibus cupiditate magnam molestiae voluptate ad laborum, itaque molestias?
+        Quasi earum tempore amet dolorem dolorum odio deserunt aperiam hic itaque at? Repellendus dolor, perferendis deserunt expedita placeat soluta magni sunt aliquam, iste eveniet reprehenderit pariatur fugiat, at cupiditate nesciunt?</p>
+        <picture>
+            <source media="(max-width:600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cumque laboriosam reiciendis id, molestias fugit porro aut, aliquam quisquam voluptates fugiat culpa quia eius provident unde architecto? Dignissimos, modi nisi.
+            Cupiditate totam et maxime enim, iste aliquid velit nostrum provident voluptatum a voluptate. Reiciendis quam reprehenderit perferendis velit magni, mollitia id necessitatibus cupiditate magnam molestiae voluptate ad laborum, itaque molestias?
+            Quasi earum tempore amet dolorem dolorum odio deserunt aperiam hic itaque at? Repellendus dolor, perferendis deserunt expedita placeat soluta magni sunt aliquam, iste eveniet reprehenderit pariatur fugiat, at cupiditate nesciunt?</p>
+    </main>
+</body>
+</html>
