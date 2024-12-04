@@ -1,0 +1,216 @@
+head	           Armazena informações de serviço, como estilos ou título da página	
+                        dir     — define a direção do texto;
+                        lang    — define o idioma do texto do modelo
+                
+
+p	                              Define um parágrafo	
+                        align   — define o alinhamento horizontal do texto;
+                        class   — define a classe de estilo;
+                        dir     — define a direção do texto;               
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+span	                         Define um elemento embutido	
+                        class   — define a classe de estilo;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+
+h1, h2, h3, h4, h5, h6	         Definir títulos de 1 a 6 níveis	
+                        align   — define o alinhamento horizontal do texto;
+                        class   — define a classe de estilo;
+                        dir     — define a direção do texto;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+
+img	                             Insere uma imagem	
+                        align   — define o alinhamento horizontal da imagem;
+                        borda   — define a largura da borda ao redor da imagem;
+                        class   — define a classe de estilo;
+                        altura  — define a altura da imagem;
+                        hspace  — define as margens horizontais;
+                        id      — especifica o identificador do elemento;
+                        src     — define o caminho da imagem;
+                        style   — define o estilo do elemento;
+                        usemap  — conecta a imagem e o mapa de imagem (elemento <map>);
+                        vspace  — define as margens verticais;
+                        largura — define a largura da imagem
+
+                        
+
+a	                             Adiciona um link	
+                        class   — define a classe de estilo;
+                        href    — define o endereço do link;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento;
+                        target  — determina onde abrir o documento vinculado
+
+
+
+hr	                             Cria uma linha horizontal	
+                        align   — define o alinhamento da linha horizontal;
+                        size    — define a espessura da linha;
+                        largura — define a largura da linha
+
+
+
+br	                             Define uma quebra de linha	
+                        class   — define a classe de estilo;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+
+                         Formatação de texto
+b, strong	                     Torna um texto em negrito	
+                        class   — define a classe de estilo;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+
+i	                             Coloca um texto em itálico	
+                        class   — define a classe de estilo;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+
+u	                             Sublinha um texto	
+                        class   — define a classe de estilo;
+                        id      — especifica o identificador do elemento;
+                        style   — define o estilo do elemento
+
+
+
+s, strike	                     Aplica a formatação tachada	
+                        class  — define a classe de estilo;
+                        id     — especifica o identificador do elemento;
+                        style  — define o estilo do elemento
+
+
+
+label	                    Especifica um rótulo de texto para a tag input	
+                        class  — define a classe de estilo;
+                        id     — especifica o identificador do elemento;
+                        style  — define o estilo do elemento
+
+
+
+font	                         Especifica estilos de fonte	
+                        class  — define a classe de estilo;
+                        cor    — define a cor do texto;
+                        face   — define a fonte do texto;
+                        id     — define o identificador do elemento;
+                        size   — define o tamanho da fonte;
+                        style  — define o estilo do elemento
+
+
+
+small	            Diminui o tamanho da fonte em um comparado ao texto simples	
+                        class  — define a classe de estilo;
+                        id     — especifica o identificador do elemento;
+                        style  — define o estilo do elemento
+
+
+                                  Lista
+li	                            Cria um item de lista	
+                        class  — define a classe de estilo;
+                        dir    — define a direção do texto;
+                        id     — especifica o identificador do elemento;
+                        style  — define o estilo do elemento;
+                        type   — define o tipo de marcador
+
+
+
+ol	                      Cria uma lista numerada (ordenada)	
+                        class  — define a classe de estilo;
+                        dir    — define a direção do texto;
+                        id     — especifica o identificador do elemento;
+                        style  — define o estilo do elemento;
+                        type   — define o tipo de marcador
+
+
+
+ul	                      Cria uma lista com marcadores (não ordenada)	
+                        class  — define a classe de estilo;
+                        dir    — define a direção do texto;
+                        id     — especifica o identificador do elemento;
+                        style  — define o estilo do elemento
+
+
+
+                               Tabela
+table	                   Cria uma tabela	
+                        align       — define o alinhamento horizontal do conteúdo da tabela;
+                        bgcolor     — define a cor de fundo da tabela;
+                        borda       — define a largura da borda ao redor da mesa;
+                        cellpadding — define a distância entre a borda da célula e seu conteúdo;
+                        cellspacing — define o espaçamento entre as células da tabela;
+                        class       — define a classe de estilo;
+                        dir         — define a direção do texto;
+                        frame       — determina como exibir a borda externa da tabela;
+                        id          — especifica o identificador do elemento;
+                        regras      — determina como exibir as bordas entre as células da tabela;
+                        style       — define o estilo do elemento;
+                        largura     — define a largura da tabela
+
+
+
+tr	                            Define uma linha da tabela	
+                        align      — define o alinhamento do conteúdo da linha horizontal;
+                        bgcolor    — define a cor da linha de fundo;
+                        class      — define a classe de estilo;
+                        dir        — define a direção do texto;
+                        id         — especifica o identificador do elemento;
+                        style      — define o estilo do elemento;
+                        valign     — define o alinhamento vertical do conteúdo da linha
+
+
+
+td	                           Define uma célula da tabela	
+                        abbr       — define uma breve descrição do conteúdo da célula;
+                        align      — define o alinhamento horizontal do conteúdo da célula;
+                        bgcolor    — define a cor de fundo da célula;
+                        class      — define a classe de estilo;
+                        colspan    — define o número de células mescladas horizontalmente;
+                        dir        — define a direção do texto;
+                        altura     — define a altura da célula;
+                        id         — especifica o identificador do elemento;
+                        lang       — define o idioma do texto da célula;
+                        rowspan    — define o número de células mescladas verticalmente;
+                        escopo     — define como a célula é associada ao cabeçalho;
+                        style      — define o estilo do elemento;
+                        valign     — define o alinhamento vertical do conteúdo da célula;
+                        largura    — define a largura da célula
+
+
+
+th	                            Define uma célula de cabeçalho de tabela	
+                        abbr       — define uma breve descrição do conteúdo da célula;
+                        align      — define o alinhamento horizontal do conteúdo da célula;
+                        fundo      — define a imagem de fundo da célula;
+                        bgcolor    — define a cor de fundo da célula;
+                        class      — define a classe de estilo;
+                        colspan    — define o número de células mescladas horizontalmente;
+                        dir        — define a direção do texto;
+                        altura     — define a altura da célula;
+                        id         — especifica o identificador do elemento;
+                        lang       — define o idioma do texto da célula;
+                        escopo     — define como a célula é associada ao cabeçalho;
+                        style      — define o estilo do elemento;
+                        valign     — define o alinhamento vertical do conteúdo da célula;
+                        largura    — define a largura da célula
+
+Alguns clientes de e-mail usam seus próprios conjuntos de estilo, por isso recomendamos usar os atributos padrão para o <table>, <tr>, <td> e <th> tags.                        
+
+                        
+
+                        
+
+                        
+
