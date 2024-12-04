@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -11,16 +11,20 @@
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: 100%; /* Aceita o valor:
-            - auto
-            - cover (cobrir)
-            - px ou % da tela
-            - contain (mostra 100% da img ao maximo sem ter cortes) */
+            background-size: 100%; /* Aceita o valor: - auto - cover (cobrir) - px ou % da tela - contain (mostra 100% da img ao maximo sem ter cortes) */
+            background-attachment: fixed; /* fixed ele rola o conteudo, scroll ele desce junto ao conteudo */
+            
+            /* Shorthand - background
+                color > image > position > repeat > [size] (é necessario por separado) > attachment 
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,6 +35,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias consectetur aperiam sint incidunt veritatis, ipsa, eligendi quod commodi repellendus expedita blanditiis reiciendis fugiat! Ab aliquam ratione nam nihil velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magni nam fuga, quasi maxime minus dolorem esse vitae? Nisi laudantium enim architecto distinctio facilis ipsam modi hic, cupiditate voluptate blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus quis laudantium nihil recusandae earum molestiae ipsa. Odio provident totam nam eaque veniam atque? Voluptates dolores molestias placeat odit quasi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias consectetur aperiam sint incidunt veritatis, ipsa, eligendi quod commodi repellendus expedita blanditiis reiciendis fugiat! Ab aliquam ratione nam nihil velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magni nam fuga, quasi maxime minus dolorem esse vitae? Nisi laudantium enim architecto distinctio facilis ipsam modi hic, cupiditate voluptate blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus quis laudantium nihil recusandae earum molestiae ipsa. Odio provident totam nam eaque veniam atque? Voluptates dolores molestias placeat odit quasi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias consectetur aperiam sint incidunt veritatis, ipsa, eligendi quod commodi repellendus expedita blanditiis reiciendis fugiat! Ab aliquam ratione nam nihil velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magni nam fuga, quasi maxime minus dolorem esse vitae? Nisi laudantium enim architecto distinctio facilis ipsam modi hic, cupiditate voluptate blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus quis laudantium nihil recusandae earum molestiae ipsa. Odio provident totam nam eaque veniam atque? Voluptates dolores molestias placeat odit quasi?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias consectetur aperiam sint incidunt veritatis, ipsa, eligendi quod commodi repellendus expedita blanditiis reiciendis fugiat! Ab aliquam ratione nam nihil velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias magni nam fuga, quasi maxime minus dolorem esse vitae? Nisi laudantium enim architecto distinctio facilis ipsam modi hic, cupiditate voluptate blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatibus quis laudantium nihil recusandae earum molestiae ipsa. Odio provident totam nam eaque veniam atque? Voluptates dolores molestias placeat odit quasi?</p>
     </main>
 </body>
